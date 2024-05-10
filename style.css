@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.container {
+
+width: 100vw;
+height: 100vh;
+background-image: url(Images/new.jpg);
+background-position: center;
+
+
+background-size: cover;
+padding: 0 8%;
+background-repeat:no-repeat;
+background-attachment: fixed;
+
+}
+
+.content {
+
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.container h1 {
+
+    font-size: 64px;
+    font-weight: 600;
+    color: darkgreen;
+}
+
+.content h1 span {
+
+    color: black;
+}
+
+
+.remaing-days {
+    display: flex;
+}
+
+.remaing-days div {
+    flex-basis: 100px;
+}
+
+.remaing-days div p {
+
+    font-size: 60px;
+    margin-bottom: -14px;
+} 
+
+
+
